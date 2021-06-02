@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React | Ronan&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/avatar.jpg">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.a8180985.css" as="style"><link rel="preload" href="/assets/js/app.61e04154.js" as="script"><link rel="preload" href="/assets/js/2.c0ca23a3.js" as="script"><link rel="preload" href="/assets/js/13.3b860361.js" as="script"><link rel="prefetch" href="/assets/js/10.abaa7297.js"><link rel="prefetch" href="/assets/js/11.dd31f22d.js"><link rel="prefetch" href="/assets/js/12.03a104dc.js"><link rel="prefetch" href="/assets/js/14.fcea7c2c.js"><link rel="prefetch" href="/assets/js/15.51737c03.js"><link rel="prefetch" href="/assets/js/16.ee637a3b.js"><link rel="prefetch" href="/assets/js/3.476a41df.js"><link rel="prefetch" href="/assets/js/4.3ad5e0e9.js"><link rel="prefetch" href="/assets/js/5.bf45e4a1.js"><link rel="prefetch" href="/assets/js/6.fd3f259b.js"><link rel="prefetch" href="/assets/js/7.fe137c3b.js"><link rel="prefetch" href="/assets/js/8.6c9aad32.js"><link rel="prefetch" href="/assets/js/9.7fed79a0.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a8180985.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.jpg" alt="Ronan's Blog" class="logo"> <span class="site-name can-hide">Ronan's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/Css/" class="nav-link">
+  Css
+</a></div><div class="nav-item"><a href="/Js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/Ts/" class="nav-link">
+  Ts
+</a></div><div class="nav-item"><a href="/Vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/React/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/Network/" class="nav-link">
+  Network
+</a></div><div class="nav-item"><a href="/Webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Others/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Nginx/" class="nav-link">
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/Others/粤语/" class="nav-link">
+  粤语
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/Css/" class="nav-link">
+  Css
+</a></div><div class="nav-item"><a href="/Js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/Ts/" class="nav-link">
+  Ts
+</a></div><div class="nav-item"><a href="/Vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/React/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/Network/" class="nav-link">
+  Network
+</a></div><div class="nav-item"><a href="/Webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Others/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Nginx/" class="nav-link">
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/Others/粤语/" class="nav-link">
+  粤语
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>React</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/React/#jsx的本质" class="sidebar-link">JSX的本质</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#类组件和函数式组件的区别" class="sidebar-link">类组件和函数式组件的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#react生命周期函数" class="sidebar-link">React生命周期函数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#react组件间通信" class="sidebar-link">React组件间通信</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#react插槽的使用" class="sidebar-link">React插槽的使用</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#setstate同步异步问题" class="sidebar-link">setState同步异步问题</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#获取setstate异步更新结果" class="sidebar-link">获取setState异步更新结果</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#setstate的合并" class="sidebar-link">setState的合并</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#setstate不可变性的力量" class="sidebar-link">setState不可变性的力量</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#scu、purecomponent、memo" class="sidebar-link">SCU、PureComponent、memo</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#高阶组件hoc" class="sidebar-link">高阶组件HOC</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#redux" class="sidebar-link">Redux</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#封装connect函数" class="sidebar-link">封装connect函数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#前端路由的原理" class="sidebar-link">前端路由的原理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#useeffect模拟生命周期函数" class="sidebar-link">useEffect模拟生命周期函数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#usememo和usecallback的区别" class="sidebar-link">useMemo和useCallback的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#usestate和usereducer的区别" class="sidebar-link">useState和useReducer的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#useeffect和uselayouteffect的区别" class="sidebar-link">useEffect和useLayoutEffect的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/React/#usedispatch、useselector、shallowequal" class="sidebar-link">useDispatch、useSelector、shallowEqual</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="react"><a href="#react" class="header-anchor">#</a> React</h1> <h2 id="jsx的本质"><a href="#jsx的本质" class="header-anchor">#</a> JSX的本质</h2> <p>JSX的本质是<code>React.createElement(type,config,children)</code>函数的语法糖，两种写法效果一样。</p> <p>type:标签类型，config:属性，children:标签中的内容。实际是一个<strong>数组</strong>，虽然只有一个参数代表children，但是实际可以传递多个参数。</p> <p>React.createElement函数的返回值是一个ReactElement对象，<strong>通过这个对象构建js对象树，也就是虚拟DOM</strong></p> <p>children<strong>源码</strong>：</p> <div class="language-react extra-class"><pre class="language-text"><code>const childrenLength = arguments.length - 2;
+  if (childrenLength === 1) {
+    props.children = children;
+  } else if (childrenLength &gt; 1) {
+    const childArray = Array(childrenLength);
+    for (let i = 0; i &lt; childrenLength; i++) {
+      childArray[i] = arguments[i + 2];
+    }
+    if (__DEV__) {
+      if (Object.freeze) {
+        Object.freeze(childArray);
+      }
+    }
+    props.children = childArray;
+  }
+</code></pre></div><p>babel编译jsx</p> <div class="language-react extra-class"><pre class="language-text"><code>// jsx 通过babel编译成js
+&lt;script type=&quot;text/babel&quot;&gt;
+    const message1 = &lt;h1&gt;Hello React&lt;/h1&gt;
+&lt;script/&gt;
+
+ReactDom.render(message1,document.getElementByid(&quot;#app&quot;))
+        
+// 不需要babel编译
+&lt;script&gt;
+    const message2 = React.createElement(&quot;h1&quot;,null,Hello React)
+&lt;script/&gt;
+
+ReactDom.render(message2,document.getElementByid(&quot;#app&quot;))
+</code></pre></div><p>babel官网编译</p> <p><img src="https://cdn.jsdelivr.net/gh/rookiepjx/image-bed/img/Snipaste_2020-09-27_15-22-47.jpg" alt=""></p> <p><strong>总结</strong>：JSX --babel编译--&gt; creatElement函数 ----&gt; ReacrElement对象（虚拟DOM） --ReactDom.render函数--&gt; 真实DOM</p> <h2 id="类组件和函数式组件的区别"><a href="#类组件和函数式组件的区别" class="header-anchor">#</a> 类组件和函数式组件的区别</h2> <ol><li>函数式组件没有<code>this</code>对象</li> <li>函数式组件没有内部状态<code>state</code>(useState解决)</li> <li>函数值组件没有<code>生命周期函数</code>（useEffect解决）</li></ol> <h2 id="react生命周期函数"><a href="#react生命周期函数" class="header-anchor">#</a> React生命周期函数</h2> <p>生命周期函数是<strong>Class类组件中的概念</strong>，function函数式组件没有生命周期函数的概念。函数式组件可以使用hooks模拟生命周期函数。</p> <p>react生命周期有15和16两种版本。后续17版本也会有变化。</p> <p><strong>15版本</strong></p> <ol><li>初始化（initialization）</li> <li>挂载阶段（Mounting）</li> <li>更新阶段（Updating）</li> <li>卸载阶段（unmounting）</li></ol> <p><strong>16版本</strong></p> <ol><li><p>挂载阶段 - 组件实例被创建和插入 DOM 树的过程</p></li> <li><p>更新阶段 - 组件被重新渲染的过程</p></li> <li><p>卸载阶段 - 组件从 DOM 树中被删除的过程</p></li></ol> <p><img src="https://cdn.jsdelivr.net/gh/rookiepjx/image-bed/img/Snipaste_2020-09-25_22-46-52.jpg" alt=""></p> <p>生命周期函数常用方法</p> <p><strong>constructor</strong></p> <ul><li>初始化内部state</li> <li>为事件绑定实例this</li></ul> <p><strong>componentDidMount</strong></p> <ul><li>DOM操作，如获取组件ref实例</li> <li>网络请求</li> <li>添加订阅（componentWillUnmount取消订阅）</li></ul> <p><strong>componentDidUpdate(preProps,preState,snapShot)</strong></p> <ul><li>组件更新后的DOM操作</li> <li>props变化后的网络请求</li></ul> <p><strong>componentWillUnmount</strong></p> <ul><li>清除定时器timer</li> <li>取消网络请求</li> <li>取消订阅</li></ul> <p><strong>shouldComponentUpdate（SCU）</strong></p> <ul><li>常用于性能优化。返回一个布尔值。在组件接收到新的props或者state时被调用。在初始化时或者使用forceUpdate时不被调用</li></ul> <p>不常用的生命周期函数</p> <ul><li><p><strong>getDerivedStateFromProps</strong>：state 的值在任何时候都依赖于 props时使用；该方法返回一个对象来更新state；</p></li> <li><p><strong>getSnapshotBeforeUpdate</strong>：在React更新DOM之前回调的一个函数，可以获取DOM更新前的一些信息，比如</p> <p>说滚动位置</p></li></ul> <h2 id="react组件间通信"><a href="#react组件间通信" class="header-anchor">#</a> React组件间通信</h2> <ol><li><p><strong>父传子</strong></p> <p>props</p> <div class="language-react extra-class"><pre class="language-text"><code>// 父组件引用子组件
+&lt;Child name=&quot;pjx&quot; age=&quot;20&quot;/&gt;
+    
+// 子组件
+class Child extends Component{
+    // 此处构造函数可以省略，因为和子类的默认构造函数一样
+    constructor(props){
+        super(props)
+    }
+    reder(){
+        // es6对象解构
+        const {name,age} = this.props
+        return (
+            &lt;h2&gt;{name + &quot; &quot; + age }&lt;/h2&gt;
+        )
+    }
+}
+</code></pre></div><p>使用<code>propTypes</code>验证props数据类型</p> <div class="language-react extra-class"><pre class="language-text"><code>import propTyeps form &quot;prop-types&quot;
+
+Child.propTypes = {
+    // 规定数据类型和必须值
+    name:propTypes.string.isRequired,
+    age:propTypes.number
+}
+
+// 使用子组件，number、array类型需要{}包裹
+&lt;Child name=&quot;pjx&quot; age={20}/&gt;
+</code></pre></div><p>设置props默认值</p> <div class="language-react extra-class"><pre class="language-text"><code>Child.defaultProps = {
+    name:&quot;pjx&quot;,
+    age:20
+}
+</code></pre></div></li> <li><p><strong>子传父</strong></p> <p>父组件props传递函数callback给子组件，子组件调用calbback</p> <p>注意：<strong>需要为子组件的调用的callback绑定父组件的作用域</strong></p> <ol><li><p>this.callback.bind(this)</p></li> <li><p>e =&gt; this.callback()，需要参数则 index =&gt; this.callback(index)</p></li> <li><p>callback定义为箭头函数 callback = () =&gt;{...}</p></li></ol></li></ol> <div class="language-react extra-class"><pre class="language-text"><code>// 父组件使用子组件，传递callback
+&lt;Child callback = {e =&gt; this.callback()}/&gt;
+
+// 子组件
+class Child extends React.Cpmponent{
+    render(){
+        const {callback} = this.props
+        return (
+            &lt;h2&gt;{this.state.count}&lt;/h2&gt;
+        	&lt;button onClick=callback&gt;+1&lt;/button&gt;
+        )
+    }
+}
+
+// 传递的props为函数
+callback(){
+    this.setState({
+        count:this.state.count + 1
+    })
+}
+</code></pre></div><ol start="3"><li><p><strong>跨层级组件通信</strong></p> <p>方法1：通过props一层层传递。便捷写法是 <code>{...props}</code></p> <p>方法2：Context上下文对象(<strong>class组件才有context对象,函数组件可以使用context.Consumer组件包裹使用共享数据</strong>）</p> <p>context相关api：</p> <ul><li><strong>React.createContext</strong> 创建一个context对象。context对象提供一个<strong>Provider</strong>组件，用于包裹顶层组件，向下层传递数据。如果有多个context向下传递共享数据，可以<strong>多层嵌套</strong>。</li> <li><strong>contextType</strong> 为组件指定向上层寻找数据的 context对象</li></ul> <p>类组件的context用法</p> <div class="language-react extra-class"><pre class="language-text"><code>// 创建context对象 , 并指定默认值
+const UserContext = React.createContext({
+    nickname:&quot;pjx&quot;,
+    level:1
+})
+
+// 使用provider组件传递共享数据
+class App extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            nickname:&quot;pjx&quot;,
+            level:99
+        }
+    }
+    // 使用provider组件包裹，并通过value传值
+    &lt;UserContext.Provider value={this.state}&gt;
+    	&lt;Father/&gt;
+    &lt;/UserContext.Provider/&gt;
+}
+
+// 使用contextType接受共享数据,并渲染数据
+class Son extends Component{
+    // 从context对象解构出共享数据
+    const {nickname,level} = this.context
+    render(){
+        return (
+        	&lt;div&gt;{nickname}&lt;/div&gt;
+            &lt;div&gt;{level}&lt;/div&gt;
+        )
+    }
+}
+
+Son.contextType = UserContext
+
+</code></pre></div></li></ol> <p>​	   函数组件的context用法</p> <div class="language-react extra-class"><pre class="language-text"><code>   function Son(){
+	return (
+		// 使用consumer消费组件包裹
+		&lt;UserContext.Consumer&gt;
+			{
+				value =&gt; {
+					return (
+						&lt;div&gt;{value.nickname}&lt;/div&gt;
+						&lt;div&gt;{value.level}&lt;/div&gt;
+					)
+				}
+			}
+		&lt;/UserContext.Consumer&gt;
+	)
+}
+</code></pre></div><ol start="4"><li><p><strong>非嵌套组件</strong></p> <p>事件总线eventBus  react中使用<code>events</code>库</p> <div class="language-react extra-class"><pre class="language-text"><code>// 创建eventBus对象
+const eventBus = new EventEmitter()
+// 发射事件
+event.emit(&quot;事件名&quot;,...args)
+// 监听事件
+componentDidMount(){
+    eventBus.addListener(&quot;事件名&quot;,callback)
+}
+// 移除监听
+componentWillUnmount(){
+    eventBus.removeListener(&quot;事件名&quot;,callback)
+}
+
+</code></pre></div><p>redux</p></li></ol> <h2 id="react插槽的使用"><a href="#react插槽的使用" class="header-anchor">#</a> React插槽的使用</h2> <p>方法1：双标签组件嵌套子元素，通过props.children获取插槽（不推荐）</p> <p>​			  缺点是需要按顺序传递和获取插槽</p> <div class="language-react extra-class"><pre class="language-text"><code>// 定义
+&lt;Navbar&gt;
+	&lt;span&gt;aaa&lt;/span&gt;
+	&lt;p&gt;bbb&lt;/p&gt;
+	&lt;a href=&quot;/#&quot;&gt;ccc&lt;/a&gt;
+&lt;/Navbar&gt;
+
+// 使用
+render(){
+    const slot = this.porps.children
+    return (
+    	&lt;div className=&quot;left&quot;&gt;{slot[0]}&lt;/div&gt;
+		&lt;div className=&quot;cenetr&quot;&gt;{slot[1]}&lt;/div&gt;
+		&lt;div className=&quot;right&quot;&gt;{slot[2]}&lt;/div&gt;
+    )
+}
+</code></pre></div><p>方法2：单标签组件传递props(推荐)</p> <div class="language-react extra-class"><pre class="language-text"><code>// 定义
+&lt;Navbar left={&lt;span&gt;aaa&lt;/span&gt;} center={&lt;p&gt;bbb&lt;/p&gt;} right={&lt;a href=&quot;/#&quot;&gt;ccc&lt;/a&gt;}/&gt;
+                                                           
+// 使用
+render(){
+    const {left,center,right} = this.props
+    return (
+    	&lt;div className=&quot;left&quot;&gt;{left}&lt;/div&gt;
+		&lt;div className=&quot;cenetr&quot;&gt;{center}&lt;/div&gt;
+		&lt;div className=&quot;right&quot;&gt;{right}&lt;/div&gt;
+    )
+}                                                      
+</code></pre></div><h2 id="setstate同步异步问题"><a href="#setstate同步异步问题" class="header-anchor">#</a> setState同步异步问题</h2> <p>https://juejin.im/post/6844903636749778958</p> <p><strong>结论</strong>：可能是同步的，也可能是异步的。<strong>合成事件</strong>和<strong>生命周期函数</strong>中是“异步”的，在<strong>原生事件</strong>和 <strong>setTimeout</strong>中都是同步的。</p> <p>概念补充</p> <p><strong>合成事件</strong>：react为了解决跨平台，兼容性问题，自己封装了一套事件机制，代理了原生的事件，像在<code>jsx</code>中常见的<code>onClick</code>、<code>onChange</code>这些都是合成事件</p> <p><strong>原生事件</strong>：是指非react合成事件，原生自带的事件监听 <code>addEventListener</code> ，或者也可以用原生js、jq直接 <code>document.querySelector().onclick</code> 这种绑定事件的形式都属于原生事件</p> <p><strong>setState设计为异步的原因：</strong></p> <ul><li><p><strong>提高性能</strong>。如果每调用一次setState就更新一次，那多次调用会多次触发render函数渲染界面，效率低。</p> <p>所以应该在获取到多个setState后进行一次合并，之后<strong>批量更新</strong></p></li> <li><p><strong>保证state和props同步</strong>。如果同步执行了setState改变了state，但是render函数还没有执行，则会导致state和props不同步。</p></li></ul> <p><strong>setState异步转同步</strong></p> <ol><li>setTimeOut包裹setState</li></ol> <div class="language-react extra-class"><pre class="language-text"><code>setTimeOut(() =&gt; {
+  this.setState({
+      count:this.state.count+1
+  })  
+},0)
+</code></pre></div><ol start="2"><li>原生dom事件监听中使用setState</li></ol> <p><strong>总结</strong>：</p> <ol><li><p><code>setState</code> 只在合成事件和钩子函数中是“异步”的，在原生事件和 <code>setTimeout</code> 中都是同步的。</p></li> <li><p><code>setState</code>的**“异步”并不是说内部由异步代码实现，其实本身执行的过程和代码都是同步的，只是合成事件和钩子函数的调用顺序在更新之前，导致在合成事件和钩子函数中没法立马拿到更新后的值，形式了所谓的“异步”**，当然可以通过第二个参数 setState(partialState, callback) 中的callback拿到更新后的结果。</p></li> <li><p><code>setState</code> 的批量更新优化也是建立在“异步”（合成事件、钩子函数）之上的，在原生事件和setTimeout 中不会批量更新，在“异步”中如果对同一个值进行多次 <code>setState</code> ， <code>setState</code> 的批量更新策略会对其进行覆盖，取最后一次的执行，如果是同时 <code>setState</code> 多个不同的值，在更新时会对其进行合并批量更新。</p></li></ol> <h2 id="获取setstate异步更新结果"><a href="#获取setstate异步更新结果" class="header-anchor">#</a> 获取setState异步更新结果</h2> <p>方法1：</p> <p>setState的第二个参数是一个回调函数。作用类似于vue中的<code>nextTick</code></p> <div class="language-react extra-class"><pre class="language-text"><code>this.setState({
+    count:this.state.count+1
+},() =&gt; {
+    console.log(this.state.count)
+})
+</code></pre></div><p>方法2：</p> <p>componentDidUpdate生命周期函数</p> <h2 id="setstate的合并"><a href="#setstate的合并" class="header-anchor">#</a> setState的合并</h2> <p>合并包括数据合并和setState本身的合并</p> <ol><li><p>数据合并</p> <p><strong>当setState({obj})时，obj不会覆盖state，而是合并。</strong></p> <p>setState传入的是一个对象，底层是通过<code>Object.assign</code>方法将源对象的可枚举属性，复制到目标对象。并且源对象与目标对象如果有同名属性，则覆盖。没有，则新增。</p> <div class="language-react extra-class"><pre class="language-text"><code>const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target); // {a:1,b:4,c:5}
+</code></pre></div></li> <li><p>setState本身合并</p> <p>多次执行setState，会出现只执行了最后一次的<strong>错觉</strong>，但是其实每一次都执行了。</p> <div class="language-react extra-class"><pre class="language-text"><code>// 结果是age从0到1
+click=()=&gt;{
+    console.log('start!')
+        
+        this.setState({name:'name1',age: this.state.age+1})
+
+        this.setState({name:'name2',age: this.state.age+1})
+
+        this.setState({name:'name3',age: this.state.age+1})
+
+    console.log('end!')
+};
+</code></pre></div><p>原因：<strong>setState是异步更新的</strong>。每次setState都会执行，<strong>执行之后的值没有立马更新this.state，所以每次在setState里面取到的this.state的值都是最初的值</strong>，造成合并执行最后一条setState的错觉</p></li> <li><p>setState合并累加</p> <p>当setState<strong>传入函数</strong>，函数返回state，则多次setState可以实现多次累加</p> <div class="language-react extra-class"><pre class="language-text"><code>this.setState((preState,props) =&gt; {
+	return {
+        count:preState.count + 1
+    }
+})
+this.setState((preState,props) =&gt; {
+	return {
+        count:preState.count + 1
+    }
+})
+</code></pre></div></li></ol> <h2 id="setstate不可变性的力量"><a href="#setstate不可变性的力量" class="header-anchor">#</a> setState不可变性的力量</h2> <p>不可变性指的是在开发中需要<strong>避免直接修改state中的引用类型数据</strong>。否则SCU和PureComponent优化会失效。</p> <p><strong>原因</strong>：SCU和PureComponent的优化都是浅层比较，对于引用类型的数据而言，就是比较<strong>内存地址</strong>。</p> <p>当直接在原来的数据上修改时，内存地址未发生变化，所以浅层比较会返回false。</p> <div class="language-react extra-class"><pre class="language-text"><code>class App extends Component(){
+    constructor(props){
+        super(props){
+            this.state = {
+                // 引用类型数据
+                frineds:[...]
+            }
+        }
+    }
+    
+    ...
+    btnClick(){
+        // 错误做法 friends的内存地址未变化
+        const newData = {&quot;name&quot;:&quot;pjx&quot;,age:20}
+        this.state.frineds.push(newDate)
+         this.setState({
+        	friends:this.state.friends
+         })
+        
+        // 推荐做法 赋值一份原数据
+        const newFriends = [...this.state.friends]
+        newFriends.push({&quot;name&quot;:&quot;pjx&quot;,age:20})
+        this.setState({
+            friends:newFriends
+        })
+    }
+}
+</code></pre></div><h2 id="scu、purecomponent、memo"><a href="#scu、purecomponent、memo" class="header-anchor">#</a> SCU、PureComponent、memo</h2> <p>shouldComponentUpdate用法</p> <div class="language-react extra-class"><pre class="language-text"><code>// 当jsx依赖的state变化，再执行render函数，否则阻断render
+shouldComponentUpdate(nextProps,nextState,nextContext){
+    if(this.state.count !== nextState.count){
+        return true
+    }
+    return false
+}
+</code></pre></div><p>PureComponent用法（类组件）</p> <p>当多个组件中都需要实现SCU会很麻烦，可以让<strong>类组件继承自PureComponent</strong>，内部会自动实现SCU。</p> <p>底层通过<strong>shallowEqual</strong>浅层比较对象state和props，判断state和props是否改变</p> <div class="language-react extra-class"><pre class="language-text"><code>class App extends PureComponent{
+    ...
+}
+</code></pre></div><p>memo（函数式组件）</p> <p>memo是<strong>高阶组件（HOC）</strong>，本质是一个函数，传入的参数是一个组件。</p> <p>底层实现也是<strong>shallowEqual</strong></p> <div class="language-react extra-class"><pre class="language-text"><code>import {memo} from &quot;react&quot;
+
+// memo包裹函数组件
+const Header = memo(function Header(){
+    ...
+})
+</code></pre></div><h2 id="高阶组件hoc"><a href="#高阶组件hoc" class="header-anchor">#</a> 高阶组件HOC</h2> <p>作用：</p> <ol><li>劫持、props</li> <li>jsx条件渲染（登录鉴权）</li> <li>劫持生命周期函数</li></ol> <p>缺点：</p> <ol><li>嵌套复杂</li> <li>不遵守规则的话，props可能被同名覆盖，数据不一致</li></ol> <h2 id="redux"><a href="#redux" class="header-anchor">#</a> Redux</h2> <p>在函数式编程中一个重要的概念叫做<code>纯函数</code>，redux中的<strong>reducer</strong>函数就是一个纯函数。</p> <p><strong>纯函数</strong>特点：</p> <ol><li>确定的输入，一定产生确定的输出</li> <li>函数执行中不会产生副作用（如触发事件、DOM更新）</li></ol> <p><strong>Redux三大核心概念</strong></p> <ul><li><p>Store</p> <p>就是defaultState</p> <div class="language-react extra-class"><pre class="language-text"><code>// immutable.js中的Map函数
+const defaultState = Map({
+	playList: [],
+	currentSong: {},
+  currentSongIndex: 0,
+  /**
+   * 播放模式
+   * 0 顺序
+   * 1 随机
+   * 2 单曲循环
+   */
+  playMode:0, 
+  lyric:[],
+  currentLyricIndex:0
+});
+</code></pre></div></li> <li><p>Action</p> <p>redux中的所有数据变化，必须通过派发（dispatch）action来更新。</p> <p>action是一个JS对象，对象中包含type和content。</p> <p>通过dispatch action更新数据的好处是可以通过redux开发者工具跟踪数据变化。</p> <div class="language-react extra-class"><pre class="language-text"><code>// 改变歌曲列表
+const changePlayListAction = (playList) =&gt; ({
+	type: actionTypes.CHANGE_PLAY_LIST,
+	playList,
+});
+
+...
+
+dispatch(changePlayListAction(newList));
+</code></pre></div></li> <li><p>Reducer</p> <p>reducer是一个纯函数，可以将state和action联系在一起。reducer将传入的state和action经过纯函数处理，生成新的state。</p> <div class="language-react extra-class"><pre class="language-text"><code>const defaultState = Map({
+	playList: [],
+	currentSong: {},
+  currentSongIndex: 0,
+  /**
+   * 播放模式
+   * 0 顺序
+   * 1 随机
+   * 2 单曲循环
+   */
+  playMode:0, 
+  lyric:[],
+  currentLyricIndex:0
+});
+
+function reducer(state = defaultState,action){
+  switch (action.type){
+    case actionTypes.CHANGE_CURRENT_SONG:
+      return state.set(&quot;currentSong&quot;, action.currentSong);
+    case actionTypes.CHANGE_PLAY_LIST:
+      return state.set(&quot;playList&quot;,action.playList)
+    case actionTypes.CHANGE_CURRENT_SONG_INDEX:
+      return state.set(&quot;currentSongIndex&quot;, action.currentSongIndex);
+    case actionTypes.CHANGE_PLAY_MODE:
+      return state.set(&quot;playMode&quot;,action.playMode)
+    case actionTypes.CHANGE_LYRIC:
+      return state.set(&quot;lyric&quot;,action.lyric)
+    case actionTypes.CHANGE_CURRENT_LYRIC_INDEX:
+      return state.set(&quot;currentLyricIndex&quot;, action.currentLyricIndex);
+    default:
+      return state;
+  }
+}
+
+export default reducer;
+</code></pre></div><p><strong>reducer分模块</strong></p> <div class="language-react extra-class"><pre class="language-text"><code>import { combineReducers } from &quot;redux-immutable&quot;;
+
+// 导入各个模块的reducer
+import recommendReducer from &quot;@/pages/discover/children/recommend/store&quot;;
+import playerReducer from &quot;@/pages/player/store&quot;
+
+// 将各个模块的reducer合并,导出store.state
+// 使用redux-immutable的combineReducers
+const cReducers = combineReducers({
+	recommend:recommendReducer,
+	player:playerReducer
+});
+
+export default cReducers;
+</code></pre></div><p><strong>使用redux-thunk中间件</strong></p> <p>中间件的目的是在dispatch和action到达reducer之间，扩展自己的代码，比如网络请求。</p> <p><strong>注意：<strong>默认情况下redux中dispatch一个</strong>action对象</strong>（type和content），但是redux-thunk可以让dispatch一个<strong>action函数</strong>，函数会被调用，并且传递给这个函数两个参数：<strong>dispatch函数和getState函数</strong>。</p> <p>参数的dispatch函数可以用于再次派发dispatch action，getState函数可以用于获取原来的state。</p> <div class="language-react extra-class"><pre class="language-text"><code>// 启用redux-thunk中间件和redux开发者工具
+
+import { createStore, compose, applyMiddleware } from &quot;redux&quot;;
+import thunk from &quot;redux-thunk&quot;;
+import reducer from &quot;./reducer&quot;;
+
+// 开启浏览器redux调试工具
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+// 使用thunk中间件
+const store = createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
+
+export default store;
+</code></pre></div><p>eg：</p> <div class="language-react extra-class"><pre class="language-text"><code>// id获取歌词
+
+// dispatch的是一个函数，thunk中间件传递了dispatch函数作为参数
+export const getLyricAction = (id) =&gt; {
+	return (dispatch) =&gt; {
+		getLyric(id).then((res) =&gt; {
+			const lyricString = res.lrc.lyric;
+			const lyric = parseLyric(lyricString);
+			dispatch(changeLyricAction(lyric));
+		});
+	};
+};
+</code></pre></div><p><strong>Redux使用流程</strong></p> <p><img src="https://gitee.com/coderPjx/images/raw/master/images/Snipaste_2021-04-27_17-04-45.jpg" alt=""></p></li></ul> <h2 id="封装connect函数"><a href="#封装connect函数" class="header-anchor">#</a> 封装connect函数</h2> <p>本质是高阶组件，将redux和组件联系起来，减少组件中的重复逻辑</p> <p>由于使用麻烦，hooks推出<code>useDispatch</code>和<code>useSelector</code></p> <div class="language-react extra-class"><pre class="language-text"><code>// 定义connect函数
+function connect(mapStateToProps,mapDispatchToProps){
+    return function enhancedComponent(WrapperComponent){
+        return class extends PureComponent(){
+            constructor(props){
+                super(props)
+                this.state = {
+                    storeState:mapStateToProps(store.getState())
+                }
+            }
+            componentDidMount(){
+                // 订阅store
+                this.unsubscribe = store.subscribe(() =&gt; {
+                    this.setState = ({
+                        storeState :mapStateToProps(store.getState())
+                    })
+                })
+            }
+            componentWillUnmount(){
+                // 取消订阅store
+                this.unsubscribe()
+            }
+            render(){
+                return &lt;WrapperComponent {...this.props}
+                					{...this.mapStateToProps(store.getState())}
+                					{...this.mapDispatchToProps(store.dispatch)}
+                		/&gt;
+            }
+        }
+    }
+    
+}
+</code></pre></div><p>使用</p> <div class="language-react extra-class"><pre class="language-text"><code>// 定义基础组件
+class Home extends PureComponent{
+    render(){
+        return (
+        	&lt;div&gt;
+            	&lt;h1&gt;Home&lt;/h1&gt;
+            	&lt;button onClick={e =&gt; this.props.increment()}&gt;+1&lt;/button&gt;
+            &lt;/div&gt;
+        )
+    }
+}
+
+// 定义mapStateToPorps和mapDispatchToProps 函数
+
+// state参数是store.getState()
+const mapStateToPorps = state =&gt; ({
+    count:state.count
+})
+// dispatch参数是store.dispatch
+const mapDispatchToProps = dispatch =&gt; ({
+    increment(){
+        dispatch(increment())
+    }
+})
+
+// 真正使用的是经过处理的Home组件
+export default connect(mapStateToPorps,mapDispatchToProps)(Home)
+
+</code></pre></div><h2 id="前端路由的原理"><a href="#前端路由的原理" class="header-anchor">#</a> 前端路由的原理</h2> <p>前端路由可以实现url改变，页面不刷新，但是切换页面显示的内容。</p> <p>实现页面不刷新，url改变有hash和history两种方法。</p> <ul><li><p>hash模式</p> <p>通过<code>addEventListener</code>和<code>hashchange</code>事件，对<code>location.hash</code>进行监听，对不同的hash值做不同的页面渲染</p></li> <li><p>history模式</p> <p>通过html5的新api，pushState，popstate，replaceState，go，forward，back等，通过<code>addEventListener</code>和<code>popstate</code>事件，监听<code>location.pathname</code>，对不同的pathname进行不同的页面渲染</p></li></ul> <h2 id="useeffect模拟生命周期函数"><a href="#useeffect模拟生命周期函数" class="header-anchor">#</a> useEffect模拟生命周期函数</h2> <p>常用于组件内的effect（具有副作用）事件。例如网络请求、事件订阅和取消。</p> <p>参数1：回调函数。回调函数中可以模拟事件订阅（<strong>componentDidMount</strong>），回调函数返回值可以为一个函数，用于<strong>清除effect</strong>，取消事件订阅(<strong>componentWillUnmount</strong>)</p> <p>参数2：依赖项数组。页面的渲染依赖这个数据项，当依赖项数组的数据变化，才执行回调函数并重新渲染。（<strong>componentShoudUpdate</strong>）</p> <div class="language-react extra-class"><pre class="language-text"><code>useEffect = (() =&gt; {
+    ...
+    console.log(&quot;订阅事件&quot;)
+    
+    return () =&gt; {
+        ...
+        console.log(&quot;取消订阅事件&quot;)
+    }
+},[dependency])
+</code></pre></div><h2 id="usememo和usecallback的区别"><a href="#usememo和usecallback的区别" class="header-anchor">#</a> useMemo和useCallback的区别</h2> <p>两个hook函数的作用都是<strong>性能优化</strong></p> <p><strong>useMemo</strong></p> <p>使用场景：</p> <ol><li>复杂计算缓存</li> <li>父组件传递子组件引用类型值缓存</li></ol> <p>用于<strong>缓存返回值</strong>，第一个参数为要缓存的函数（注意实际被缓存的是函数被执行过后的值），第二个参数为依赖项数组，如果依赖发生了变化，那么就会重新执行这个函数，得到新的返回值；否则当组件重新渲染时，不会重新执行这个函数，而是直接取被缓存的该函数的返回值。</p> <p>复杂计算缓存</p> <div class="language-react extra-class"><pre class="language-text"><code>// 求和函数
+function sum(count){
+  console.log(&quot;重新计算&quot;)
+  let total = 0;
+  for(let i = 1;i &lt;= count ;i++) {
+    total += i;
+  }
+  return total;
+}
+export default function App() {
+  console.log(&quot;App渲染&quot;)
+  const [count, setcount] = useState(0)
+  const [show, setshow] = useState(true)
+
+  // 当count变化时，才重新执行求和函数。
+  const total = useMemo(() =&gt; {
+    return sum(count)
+  },[count])
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;当前计数：{total}&lt;/h2&gt;
+      &lt;button onClick={e =&gt; setcount(count + 1)}&gt;+1&lt;/button&gt;
+      &lt;button onClick={e =&gt; setshow(!show)}&gt;切换&lt;/button&gt;
+    &lt;/div&gt;
+  )
+</code></pre></div><p>引用值传递缓存</p> <div class="language-react extra-class"><pre class="language-text"><code>const MyInfo = memo((props) =&gt; {
+	console.log(&quot;MyInfo组件重新渲染&quot;);
+	return (
+		&lt;h2&gt;
+			姓名：{props.info.name} 年龄：{props.info.age}
+		&lt;/h2&gt;
+	);
+});
+
+export default function App() {
+	console.log(&quot;App重新渲染&quot;);
+	const [show, setshow] = useState(true);
+
+    // 缓存引用值
+	const info = useMemo(() =&gt; {
+		return { name: &quot;pjx&quot;, age: 20 };
+	}, []);
+
+	return (
+		&lt;div&gt;
+			&lt;MyInfo info={info} /&gt;
+			&lt;button onClick={(e) =&gt; setshow(!show)}&gt;切换&lt;/button&gt;
+		&lt;/div&gt;
+	);
+</code></pre></div><p><strong>useCallback</strong></p> <p><strong>使用场景：在将组件中的一个函数，传递给子组件进行回调使用时，使用useCallback进行优化</strong></p> <p>用于<strong>缓存函数</strong>，第一个参数为要缓存的函数，第二个参数为依赖项数组，如果依赖发生了变化，那么就会生成一个新的函数；否则当组件重新渲染时，不会重新定义这个函数，而是会取缓存。</p> <div class="language-react extra-class"><pre class="language-text"><code>// 自定义MyButton组件
+const MyButton = memo((props) =&gt; {
+	console.log(&quot;MyButton&quot; + props.title + &quot;子组件渲染&quot;);
+	return &lt;button onClick={props.increment}&gt;MyButton +1&lt;/button&gt;;
+});
+
+/**
+ * 当点击切换改变show,子组件会跟随父组件会重新渲染。
+ */
+export default function App() {
+	console.log(&quot;App父组件渲染&quot;);
+	const [count, setcount] = useState(0);
+	const [show, setshow] = useState(true);
+
+	/**
+	 * 按钮1 未使用useCallBack 不会进行性能优化。
+   * 当父子间state改变，子组件没改变，会进行不必要的重新渲染，浪费性能。
+	 */
+
+	const increment1 = () =&gt; {
+		console.log(&quot;按钮1点击&quot;);
+		setcount(count + 1);
+  };
+  
+  /**
+   * 按钮2 使用useCallBack 会进行性能优化。
+   * 当父组件state改变，子组件没改变，不会进行不必要的重新渲染。
+   */
+	const increment2 = useCallback(() =&gt; {
+		console.log(&quot;按钮2点击&quot;);
+		setcount(count + 1);
+	}, [count]);
+	return (
+		&lt;div&gt;
+			&lt;h2&gt;当前计数：{count}&lt;/h2&gt;
+			&lt;MyButton title={1} increment={increment1} /&gt;
+			&lt;MyButton title={2} increment={increment2} /&gt;
+			&lt;button onClick={(e) =&gt; setshow(!show)}&gt;切换&lt;/button&gt;
+		&lt;/div&gt;
+	);
+</code></pre></div><h2 id="usestate和usereducer的区别"><a href="#usestate和usereducer的区别" class="header-anchor">#</a> useState和useReducer的区别</h2> <p>useState用于组件内部的简易state。</p> <p>useReducer和redux中的reducer无关。useRuducer用于组件内的复杂state。</p> <h2 id="useeffect和uselayouteffect的区别"><a href="#useeffect和uselayouteffect的区别" class="header-anchor">#</a> useEffect和useLayoutEffect的区别</h2> <p>useEffect在<strong>DOM更新之后执行，不会阻塞DOM的更新</strong>。</p> <p>useLayoutEffect在<strong>DOM更新之前执行，会阻塞DOM的更新</strong>。</p> <p>如果希望某事件发生后，再更新DOM，需要使用useLayoutEffect</p> <h2 id="usedispatch、useselector、shallowequal"><a href="#usedispatch、useselector、shallowequal" class="header-anchor">#</a> useDispatch、useSelector、shallowEqual</h2> <p>解决了使用connect函数麻烦的问题。</p> <p>useDispatch直接返回dispatch函数实例。</p> <p>useSelector返回state中的对象。</p> <p>参数1：返回state对象的函数</p> <p>参数2：是否进行浅层比较<code>shallowEqual</code></p> <p><strong>注意</strong>：当使用useSelector时，可以通过传入第二个参数shallowEqual进行性能优化。</p> <p><strong>useSelector默认的比较是<code>===</code>比较，所以当state变化，无论页面是否使用（依赖）state，总是会重新渲染。</strong></p> <div class="language-react extra-class"><pre class="language-text"><code>const dispatch = useDispatch()
+const { topBanners } = useSelector(state =&gt; ({
+    topBanners: state.recommend.topBanners
+}),shallowEqual) 
+
+useEffect(() =&gt; {
+    dispatch(getTopBannersAction())
+},[dispatch])
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.61e04154.js" defer></script><script src="/assets/js/2.c0ca23a3.js" defer></script><script src="/assets/js/13.3b860361.js" defer></script>
+  </body>
+</html>
