@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nginx | Ronan&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/avatar.jpg">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.7b36eabc.css" as="style"><link rel="preload" href="/assets/js/app.5ab2ec69.js" as="script"><link rel="preload" href="/assets/js/2.eeb24f79.js" as="script"><link rel="preload" href="/assets/js/13.b53a64a6.js" as="script"><link rel="prefetch" href="/assets/js/10.d0415309.js"><link rel="prefetch" href="/assets/js/11.11f96ddc.js"><link rel="prefetch" href="/assets/js/12.17cdedb4.js"><link rel="prefetch" href="/assets/js/14.6127168f.js"><link rel="prefetch" href="/assets/js/15.c6fec423.js"><link rel="prefetch" href="/assets/js/16.551a14fc.js"><link rel="prefetch" href="/assets/js/17.3ad529cc.js"><link rel="prefetch" href="/assets/js/18.9da1d026.js"><link rel="prefetch" href="/assets/js/19.0ff8f3e6.js"><link rel="prefetch" href="/assets/js/3.1801cb39.js"><link rel="prefetch" href="/assets/js/4.30c96a68.js"><link rel="prefetch" href="/assets/js/5.f0e2ef51.js"><link rel="prefetch" href="/assets/js/6.e86df8f9.js"><link rel="prefetch" href="/assets/js/7.e76e2440.js"><link rel="prefetch" href="/assets/js/8.8df23d51.js"><link rel="prefetch" href="/assets/js/9.8c479be0.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7b36eabc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.jpg" alt="Ronan's Blog" class="logo"> <span class="site-name can-hide">Ronan's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/Css/" class="nav-link">
+  Css
+</a></div><div class="nav-item"><a href="/Js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/Js+/" class="nav-link">
+  Js高级
+</a></div><div class="nav-item"><a href="/Ts/" class="nav-link">
+  Ts
+</a></div><div class="nav-item"><a href="/Vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/React/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/Network/" class="nav-link">
+  Network
+</a></div><div class="nav-item"><a href="/Webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Others/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/Others/粤语/" class="nav-link">
+  粤语
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/Css/" class="nav-link">
+  Css
+</a></div><div class="nav-item"><a href="/Js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/Js+/" class="nav-link">
+  Js高级
+</a></div><div class="nav-item"><a href="/Ts/" class="nav-link">
+  Ts
+</a></div><div class="nav-item"><a href="/Vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/React/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/Network/" class="nav-link">
+  Network
+</a></div><div class="nav-item"><a href="/Webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Others/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/Others/Algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/Others/粤语/" class="nav-link">
+  粤语
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Nginx</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Others/Nginx/#简介" class="sidebar-link">简介</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#反向代理" class="sidebar-link">反向代理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#负载均衡" class="sidebar-link">负载均衡</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#动静分离" class="sidebar-link">动静分离</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#常用命令" class="sidebar-link">常用命令</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#配置文件" class="sidebar-link">配置文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Others/Nginx/#负载均衡配置" class="sidebar-link">负载均衡配置</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nginx"><a href="#nginx" class="header-anchor">#</a> Nginx</h1> <h2 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h2> <p><em>Nginx</em> (engine x) 是一个高性能的<strong>HTTP</strong>和<strong>反向代理</strong>的<strong>web服务器</strong>。</p> <p>特点：</p> <ul><li>反向代理</li> <li>负载均衡</li> <li>动静分离</li></ul> <p>优点：</p> <ul><li>高并发且稳定</li> <li>轻量级，内存消耗低</li> <li>热部署</li></ul> <h2 id="反向代理"><a href="#反向代理" class="header-anchor">#</a> 反向代理</h2> <ul><li><p>正向代理：当客户端无法访问外部资源的时候（由于诸如<strong>墙</strong>这样的原因），可以通过一个正向代理去间接地访问，所以<strong>客户端需要配置代理服务器的ip</strong>。</p> <p><img src="https://gitee.com/coderPjx/images/raw/master/images/Snipaste_2021-04-01_17-06-10.jpg" alt=""></p></li> <li><p>反向代理：客户端是<strong>无感知</strong>代理的存在，以代理服务器来接受internet上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给internet上请求连接的客户端。</p> <p>作用：</p> <ul><li>隐藏真实服务地IP地址，暴露代理服务器地址，保证内网的安全</li> <li>负载均衡</li></ul> <p><img src="https://gitee.com/coderPjx/images/raw/master/images/Snipaste_2021-04-01_17-06-21.jpg" alt=""></p></li></ul> <h2 id="负载均衡"><a href="#负载均衡" class="header-anchor">#</a> 负载均衡</h2> <p>在服务器集群中，Nginx起到一个代理服务器的角色（即反向代理），为了避免单独一个服务器压力过大，将来自用户的请求<strong>转发</strong>给空闲的服务器。</p> <h2 id="动静分离"><a href="#动静分离" class="header-anchor">#</a> 动静分离</h2> <p>为了加快网站的解析速度，可以把动态资源和静态资源分给不同的服务器来解析，降低单个服务器的压力。</p> <h2 id="常用命令"><a href="#常用命令" class="header-anchor">#</a> 常用命令</h2> <ul><li><p>启动   <code>./nginx</code></p></li> <li><p>关闭   <code>./nginx -s stop</code></p></li> <li><p>重载   <code>./nginx -s reload</code></p></li> <li><p>验证配置文件  <code>./nginx -t</code></p></li></ul> <h2 id="配置文件"><a href="#配置文件" class="header-anchor">#</a> 配置文件</h2> <p>配置文件为conf目录下的nginx.conf</p> <div class="language- extra-class"><pre class="language-text"><code>#-------全局块-----------
+worker_processes  1;
+
+#------events块----------
+events {
+    worker_connections  1024;
+}
+
+#---------http块-----------
+http {
+    #---------http全局块---------
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+	#--------sever块----------
+    server {
+        #--------sever全局块----------
+        listen       80;
+        server_name  localhost;
+        #--------location块----------
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+}
+</code></pre></div><p>配置文件分为三大块：</p> <ul><li><p><strong>全局块</strong></p> <div class="language- extra-class"><pre class="language-text"><code>worker_processes  1;
+</code></pre></div><p>主要包括配置运行 Nginx 服务器的用户（组）、允许生成的 <strong>worker process 数</strong>， 进程 PID 存放路径、日志存放路径和类型以
+及配置文件的引入等。<strong>worker_processes 值越大，可以支持的并发处理量也越多，但是会受到硬件、软件等设备的制约。</strong></p></li> <li><p><strong>events块</strong></p> <div class="language- extra-class"><pre class="language-text"><code>events {
+    worker_connections  1024;
+}
+</code></pre></div><p>主要影响 Nginx 服务器与用户的<strong>网络连接</strong>，常用的设置包括是否开启对多 work process 下的网络连接进行序列化，是否允许同时接收多个网络连接，选取哪种事件驱动模型来处理连接请求，每个 word process 可以同时支持的<strong>最大连接数</strong>等。</p></li> <li><p><strong>http块</strong></p> <div class="language- extra-class"><pre class="language-text"><code>http {
+    #-------http全局块---------
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+    #----------sever块--------
+    server {
+        #----serve全局块--------
+        listen       80;
+        server_name  localhost;
+        #--------location块--------
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+}
+</code></pre></div><p>这是Nginx服务器配置最频繁的部分，包括<strong>代理、缓存和日志</strong>定义等绝大多数功能和第三方模块的配置。</p> <p>需要注意的是： <strong>http 块也可以包括 http 全局块、 server 块</strong>。</p> <ul><li><p><strong>http 全局块：</strong>
+http 全局块配置的指令包括文件引入、 MIME-TYPE 定义、日志自定义、连接超时时间、单链接请求数上限等。</p></li> <li><p><strong>server 块</strong>
+这块和虚拟主机有密切关系，虚拟主机从用户角度看，和一台独立的硬件主机是完全一样的，该技术的产生是为了节省互联网服务器硬件成本。</p> <p><strong>每个 http 块可以包括多个 server 块</strong>，而每个 server 块就相当于一个虚拟主机。而每个 server 块也分为全局 server 块，以及可以同时包含多个 locaton 块。</p> <ul><li><p><strong>全局 server 块</strong>
+最常见的配置是本虚拟机主机的监听配置和本虚拟主机的名称或 IP 配置。</p></li> <li><p><strong>location 块</strong></p> <p>一个 server 块可以配置多个 location 块。这块的主要作用是基于 Nginx 服务器接收到的请求字符串（例如server_name/uri-string），对虚拟主机名称（也可以是 IP 别名）之外的字符串（例如 前面的 /uri-string）进行匹配，对特定的请求进行处理。地址定向、数据缓存和应答控制等功能，还有许多第三方模块的配置也在这里进行。</p></li></ul></li></ul> <h2 id="负载均衡配置"><a href="#负载均衡配置" class="header-anchor">#</a> 负载均衡配置</h2> <p>前提：<strong>开放转发地址端口</strong></p> <p>目标：当访问www.123.com，访问的是http://127.0.0.1:8080</p> <ol><li><p>在系统host文件中进行域名和ip地址映射关系的配置。</p> <p>如 192.168.xx.xx  www.123.com</p></li> <li><p>修改nginx.conf文件，将serve_name修改为本机ip地址，在location中添加转发目标地址。</p> <div class="language- extra-class"><pre class="language-text"><code>server {
+        #----serve全局块--------
+        listen       80;
+        server_name  192.168.xx.xx;
+        #--------location块--------
+        location / {
+            root   html;
+            #------转发目标地址---------
+            proxy_pass:http://127.0.0.1:8080;
+            index  index.html index.htm;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+</code></pre></div><p>当有多个反向代理规则就配置多个server块。</p> <p>当访问同一个ip地址的不同子路径需要反向代理到不同的端口，则配置多个location块。只需要修改locatio的路径。</p> <div class="language- extra-class"><pre class="language-text"><code>server {
+        #----serve全局块--------
+        listen       80;
+        server_name  192.168.xx.xx;
+        #--------location块--------
+        location /aaa {
+            #------转发目标地址---------
+            proxy_pass:http://127.0.0.1:8080;
+        }
+        location /bbb {
+            #------转发目标地址---------
+            proxy_pass:http://127.0.0.1:8081;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+</code></pre></div><p>当访问同一个地址时，平均地分发到服务器集群。</p> <ol><li>在nginx.conf文件中的http块添加<code>upstream 自定义服务器名称</code>块</li></ol> <div class="language- extra-class"><pre class="language-text"><code>http {
+ ...
+ upstream myserver {
+   server 192.168.xx.xx：8081;
+   server 192.168.xx.xx：8081;
+ }
+ ...
+}
+</code></pre></div><ol start="2"><li><p>修改server块中的server_name为ip地址</p> <p>server_name  192.168.xx.xx;</p></li> <li><p>location块添加</p> <p>proxy_pass http://myserver（自定义的服务器名称）</p></li></ol> <p>负载均衡策略：</p> <ol><li><p><strong>轮询（默认）</strong></p> <p>每个请求按时间顺序逐一分配到不同后端服务器。</p></li> <li><p><strong>weight权重</strong></p> <p>权重默认为1，权重越高，分配请求越多。</p> <div class="language- extra-class"><pre class="language-text"><code> upstream myserver {
+   server 192.168.xx.xx：8081 weight=5;
+   server 192.168.xx.xx：8081 weight=10;
+ }
+</code></pre></div></li> <li><p><strong>ip_hash</strong></p> <p>每个请求按访问ip的hash值分配，这样每个访客固定访问一个服务器，可以<strong>解决session共享问题</strong>。</p> <div class="language- extra-class"><pre class="language-text"><code> upstream myserver {
+   ip_hash;
+   server 192.168.xx.xx：8081;
+   server 192.168.xx.xx：8081;
+ }
+</code></pre></div></li> <li><p><strong>fair</strong></p> <p>按后端服务器响应时间来分配请求，响应时间短的优先分配。</p> <div class="language- extra-class"><pre class="language-text"><code> upstream myserver {
+   server 192.168.xx.xx：8081;
+   server 192.168.xx.xx：8081;
+   fair;
+ }
+</code></pre></div></li></ol></li></ol></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5ab2ec69.js" defer></script><script src="/assets/js/2.eeb24f79.js" defer></script><script src="/assets/js/13.b53a64a6.js" defer></script>
+  </body>
+</html>
